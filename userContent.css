@@ -45,12 +45,12 @@
 
   search-textbox, input[type="text"] {
     color: #C0DDD9 !important;
-    background-color: #19384b !important;
+    background-color: #000000aa !important;
   }
 
 
   *.checkbox-check {
-    background-color: #19384b !important;
+    background-color: #000000aa !important;
   }
 
   /* checkbox[checked] > *.checkbox-check, input[type="checkbox"]:not(:disabled):hover {
@@ -61,7 +61,7 @@
   }
 
   listheader {
-    background-color: #19384b !important;
+    background-color: #000000aa !important;
   }
 
 }
