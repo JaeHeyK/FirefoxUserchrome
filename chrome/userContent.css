@@ -1,0 +1,72 @@
+@-moz-document url("about:newtab"), url("about:home") {  
+  body {
+    background: -moz-linear-gradient(138deg, #ff4971 0%, #556fff 30%, #19c3c9 80%) !important;
+  }
+  .title,
+  .section-title span,
+  .topic,
+  .edit-topsites-wrapper .edit-topsites-button button {
+      color: #ffffff !important;
+  }
+  .section-title span, .prefs-pane-button button {
+    fill: #ffffff !important;
+  }
+  .card-outer {
+    border-radius: 15px !important;
+  }
+  .collapsible-section {
+    border-radius: 4px !important;
+  }
+  .collapsible-section.active {
+    background: rgba(9, 20, 27, 0.3) !important;
+  }
+
+  .prefs-button button:hover, .prefs-button button:focus {
+    background-color: rgba(9, 20, 27, 0.3) !important;
+  }
+
+  #newtab-search-text{
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    color: #19384b !important;
+  }
+
+  #TabsToolbar {
+    border: none !important;
+  }
+}
+
+@-moz-document url("about:preferences") {
+  body {
+    background: -moz-linear-gradient(138deg, #ff4971 0%, #556fff 30%, #19c3c9 80%) !important;
+  }
+  .sticky-container {
+    background-color: transparent !important;
+  }
+
+  search-textbox, input[type="text"] {
+    color: #C0DDD9 !important;
+    background-color: #000000aa !important;
+  }
+
+
+  *.checkbox-check {
+    color: #19c3c9  !important;
+    background-color: #000000aa !important;
+  }
+
+  /* checkbox[checked] > *.checkbox-check, input[type="checkbox"]:not(:disabled):hover {
+    border-color: red !important;
+  } */
+  checkbox:not([disabled="true"]):hover > *.checkbox-check {
+    fill: #008eab !important;
+  }
+
+  listheader {
+    background-color: #000000aa !important;
+  }
+
+}
+
+.activity-stream .top-site-inner .tile {
+  color: #C0DDD9 !important;
+}
